@@ -1,0 +1,197 @@
+.box {
+    border-radius: 5px;
+    width: 298px;
+    height: 577px;
+    margin: 10px auto;
+    border: 1px solid black;
+    background-color: #F5F4F9;
+}
+
+.top img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    margin-left: 5px;
+}
+
+.top {
+    width: 298px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #0199FF;
+}
+
+.top div {
+    height: 40px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+.top .lishi {
+    margin-left: 88px;
+}
+
+.top a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.customer {
+    color: #969696;
+    font-size: 12px;
+    width: 278px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.customer input {
+    border: 0;
+    color: #969696;
+}
+
+.customer input:focus {
+    outline: none;
+}
+
+
+
+table {
+    background-color: #fff;
+    border: 1px solid #969696;
+    width: 298px;
+    margin: 0px -10px;
+    table-layout: fixed;
+}
+
+textarea {
+    width: 296px;
+    margin: 0px -10px;
+    text-align: left;
+}
+
+.one {
+    height: 10px;
+}
+
+#style {
+    color: #434343;
+}
+
+select {
+    border: 0;
+    width: 178px;
+
+    /*很关键：将默认的select选择框样式清除*/
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    padding-right: 14px;
+}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand {
+    display: none;
+}
+
+.row,
+.row1 {
+    display: inline;
+    /* text-align: center; */
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]+label {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    position: relative;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin: 0px 20px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"]+label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+#md_3:checked+label.blue,
+#md_4:checked+label.blue {
+    background: #88E0F8;
+}
+
+#md_3:checked+label.blue:after,
+#md_4:checked+label.blue:after {
+    background: #10C0F2;
+}
+
+#md_3:checked+label:after,
+#md_4:checked+label:after {
+    left: calc(100% - 20px);
+}
+
+#md_3+label,
+#md_4+label {
+    background: #ddd;
+    border-radius: 20px;
+    height: 10px;
+}
+
+#md_3+label:after,
+#md_4+label:after {
+    background: #fff;
+    border-radius: 50%;
+    top: -5px;
+    box-shadow: 0px 0px 3px #9E9E9E;
+}
+
+.customer .xuanze input {
+    width: 45px;
+    height: 20px;
+    background-color: #0199FF;
+    color: #fff;
+    line-height: 20px;
+    border-radius: 3px;
+    margin-left: 45px;
+}
+
+.addpicture input {
+    text-align: center;
+    width: 90px;
+    height: 20px;
+    background-color: #FFFFFf;
+    color: #0199FF;
+    line-height: 10px;
+    border-radius: 3px;
+    border: 1px solid #0199FF;
+}
+
+.add {
+    margin-top: -10px;
+}
+
+.set {
+    text-align: center;
+}

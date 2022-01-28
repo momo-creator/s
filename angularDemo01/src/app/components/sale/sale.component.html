@@ -1,0 +1,138 @@
+<div class="box">
+    <div class="top">
+        <span><img src="assets/images/arrow.png"></span>
+        <div>销售单</div>
+        <span><img src="assets/images/DropDownArrow.png"></span>
+        <span class="lishi"><img src="assets/images/history.png"></span>
+        <div><a [routerLink]="[ '/sale-history']">历史</a></div>
+        <span><img src="assets/images/more.png"></span>
+        <div><a href="#">更多</a></div>
+    </div>
+    <div class="customer">
+        <table>
+            <tr>
+                <td>客户</td>
+                <td><input type="text" placeholder="输入/选择客户"></td>
+                <td class="xuanze"><input type="submit" value="选择"></td>
+            </tr>
+            <tr>
+                <td>仓库</td>
+                <td colspan="2">
+                    <select>
+                        <option>八楼仓库</option>
+                        <option>四楼仓库</option>
+                    </select>
+                    <img src="assets/images/HalfArrow.png">
+                </td>
+            </tr>
+        </table>
+        <div class="one"></div>
+        <table>
+            <tr>
+                <td>选择商品</td>
+                <td>按手扫一扫
+                    <div class="row">
+                        <input type="checkbox" id="md_3">
+                        <label for="md_3" class="blue"></label>
+                    </div>
+                </td>
+            </tr>
+            <tr class="set">
+                <td>
+                    <div><img src="assets/images/scan.png"></div>
+                    <div style="height: 20px;" id="style">扫一扫</div>
+                    <div style="height: 20px;">(长按吊牌识别)</div>
+                </td>
+                <td>
+                    <img src="assets/images/add.png"><br>
+                    <div style="height: 20px;" id="style">添加商品</div>
+                </td>
+            </tr>
+        </table>
+        <div class="one"></div>
+        <table>
+            <tr>
+                <td>客户尚欠款</td>
+                <td id="style">0.00</td>
+                <td id="style">本单欠款
+                    <span id="style">￥0.00</span>
+                </td>
+            </tr>
+            <tr>
+                <td>客户积分</td>
+                <td id="style">0</td>
+            </tr>
+        </table>
+        <div class="one"></div>
+        <table>
+            <tr>
+                <td id="style">智能短信</td>
+                <td></td>
+                <td id="style">未开启</td>
+            </tr>
+        </table>
+        <div class="one"></div>
+        <table>
+            <tr>
+                <td>直接出库</td>
+                <td></td>
+                <td>
+                    <div class="row1">
+                        <input type="checkbox" id="md_4">
+                        <label for="md_4" class="blue"></label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>销售员</td>
+                <td colspan="2" id="style">
+                    <select>
+                        <option>体验账号</option>
+                        <option>系统管理员</option>
+                        <option>晏雅文</option>
+                        <option>陈浩宇</option>
+                    </select>
+                    <img src="assets/images/HalfArrow.png">
+                </td>
+            </tr>
+            <tr>
+                <td>业务日期</td>
+                <td colspan="2" id="style">
+                    <select>
+                        <option>2022-01-13</option>
+                        <option>2022-01-12</option>
+                        <option>2022-01-11</option>
+                        <option>2022-01-10</option>
+                    </select>
+                    <img src="assets/images/HalfArrow.png">
+                </td>
+            </tr>
+            <tr>
+                <td>发货方式</td>
+                <td colspan="2" id="style">
+                    <select>
+                        <option>自提</option>
+                        <option>发物流</option>
+                        <option>电子面单</option>
+                        <option>送指定点</option>
+                    </select>
+                    <img src="assets/images/HalfArrow.png">
+                </td>
+            </tr>
+        </table>
+        <div class="one"></div>
+        <textarea cols="41" rows="3">
+            备注
+        </textarea>
+        <table class="add">
+            <tr>
+                <td>附件</td>
+                <td></td>
+                <td class="addpicture">
+                    <input type="button" value="添加图片">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</div>
